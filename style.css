@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg,  #4e5756 35%, #59bde7 100%);
+}
+.main {
+    width: 43vw;
+    height: 42vh;
+    background-image: linear-gradient(rgb(57, 142, 238) 23%, rgb(137, 240, 137) 45% , rgb(61, 51, 51));
+    position: relative;
+    top: 203px;
+    left: 352px;
+    border: 6px solid rgb(41, 35, 35);
+    border-radius: 33px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.content {
+    position: relative;
+    left: 18%;
+    top: 20px;
+    color:rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.content input {
+    margin-bottom: 19px;
+    margin-left:10px;
+    height: 20px;
+    width: 21vw;
+    /* background-color:rgb(43, 0, 255) ; */
+    
+
+}
+
+.main h2 {
+    margin-left: 43px;
+    padding-top: 20px;
+    color: rgb(47, 0, 80);
+}
+.content label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifx;
+    margin-left: 2px;
+    position: relative;
+    text-align: center;
+}
+
+#login{
+    width: 5vw;
+    height: 4vh;
+    display: block;
+    position: relative;
+    text-align: center;
+    top: 4px;
+   
+}
+.name {border-radius: 5px;
+    text-align: center;
+}
+.pass{
+    border-radius: 5px;
+    text-align: center;
+}
+form div button {
+    margin-top: 12px;
+}
+ .sign{
+ position: relative;
+ left: 32px;
+ top: 42px;
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ font-weight: 600;
+ font-family: 'Poppins', sans-serif;
+}
+.content p {
+    margin-left: 43px;
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+  
+}
+.content button{
+    background-color: #33e1ca;
+    color: #0f0f0f;
+}
+.content button:hover{
+    background-color: rgb(43, 155, 241);
+    color: rgb(0, 0, 0);
+}
+.content p a{
+    color: #0f0f0f;
+}
